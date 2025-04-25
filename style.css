@@ -1,0 +1,146 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    background-color: #e9ecef;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+    color: #0056b3;
+    transform: scale(1.05);
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+    padding-bottom: 60px;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+/* Animación de entrada */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+main, header, section, .btn-home, .btn-descarga {
+    animation: fadeInUp 0.8s ease both;
+}
+
+/* Botón flotante de inicio (Home) */
+.btn-home {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    z-index: 1000;
+}
+
+.btn-home:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Botón de descarga de PDF */
+.descarga-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.boton-descarga {
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 24px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-descarga i {
+    margin-right: 10px;
+}
+
+.boton-descarga:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+/* Estilo para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e2f0ff;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}

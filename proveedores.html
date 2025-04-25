@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proveedores - MedAlerta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img src="descarga.jfif" alt="Portada del proyecto MedAlerta" style="width: 100%; max-height: 400px; object-fit: cover; margin-bottom: 20px;">    
+    <header>
+        <h1>MedAlerta: Tu asistente de salud personalizado</h1>
+        <p>Presentado por: Carlos José Castro Lopez</p>
+        <p>Instructor: Mauricio Fernandez</p>
+        <p>Análisis y Desarrollo de Software (3070473)</p>
+    </header>
+    <nav style="text-align: center; background-color: #eee; padding: 10px;">
+        <a href="index.html" class="btn-home">🏠 Home</a>
+        <a href="inicio.html">Inicio</a> |
+        <a href="contexto.html">Contexto</a> |
+        <a href="tecnica.html">Ficha Técnica</a> |
+        <a href="proveedores.html">Proveedores</a> |
+        <a href="modelo.html">Modelos</a> |
+        <a href="propuesta.html">Propuesta Técnica</a> |
+        <a href="costos.html">Costos</a> |
+        <a href="cronograma.html">Cronograma</a> |
+        <a href="terminos.html">Términos</a> |
+        <a href="descargar.html">Descargar</a>
+    </nav>
+    
+    <section id="proveedores">
+        <h2>Proveedores</h2>
+        <p>Tabla Comparativa</p>
+        <table border="1">
+            <tr>
+                <th>Proveedor</th>
+                <th>Almacenamiento</th>
+                <th>BD</th>
+                <th>Escalabilidad</th>
+                <th>Costo mensual estimado</th>
+                <th>Seguridad</th>
+            </tr>
+            <tr>
+                <td>AWS</td>
+                <td>S3</td>
+                <td>RDS (PostgreSQL)</td>
+                <td>Alta</td>
+                <td>$150,000 – $250,000 COP</td>
+                <td>Alta</td>
+            </tr>
+            <tr>
+                <td>Google Cloud</td>
+                <td>Cloud Storage</td>
+                <td>Cloud SQL</td>
+                <td>Alta</td>
+                <td>$130,000 – $200,000 COP</td>
+                <td>Alta</td>
+            </tr>
+            <tr>
+                <td>DigitalOcean</td>
+                <td>Spaces</td>
+                <td>PostgreSQL</td>
+                <td>Media</td>
+                <td>$60,000 – $120,000 COP</td>
+                <td>Media</td>
+            </tr>
+        </table>
+        <p>* Conclusión/Recomendación:</p>
+        <p>Para la fase inicial, se sugiere DigitalOcean por su balance entre funcionalidad y costos bajos. En fases de crecimiento, migrar a AWS o Google Cloud.</p>
+        <p><strong>Stack tecnológico seleccionado:</strong></p>
+        <ul>
+            <li>Backend: Python + Django</li>
+            <li>Frontend: Vue.js</li>
+            <li>Base de datos: PostgreSQL</li>
+            <li>Infraestructura: DigitalOcean VPS y almacenamiento en Spaces</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2025 MedAlerta</p>
+    </footer>
+</body>
+</html>
